@@ -607,6 +607,8 @@ public class Graph {
             // 这个边已经访问过了，停止游走
             if (accessMatrix.get(beginNode).get(nextNode)){
                 // writer.write(" ");
+                // 分支B2
+                // 注释
                 // System.out.println("边(" + beginNode + ", " + nextNode + ")访问重复而停止");
                 randomWalkMsg = "边(" + beginNode + ", " + nextNode + ")访问重复而停止";
                 break;
