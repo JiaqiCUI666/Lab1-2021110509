@@ -607,12 +607,6 @@ public class Graph {
             // 这个边已经访问过了，停止游走
             if (accessMatrix.get(beginNode).get(nextNode)){
                 // writer.write(" ");
-                // randomWalkPath.append(" ").append(nextNode);
-                // writer.write(nextNode);
-                // writer.write("\n");
-                // System.out.println("随机游走的序列是：");
-                // System.out.println(randomWalkPath);
-                // if (debug) System.out.println(nextNode);
                 // System.out.println("边(" + beginNode + ", " + nextNode + ")访问重复而停止");
                 randomWalkMsg = "边(" + beginNode + ", " + nextNode + ")访问重复而停止";
                 break;
